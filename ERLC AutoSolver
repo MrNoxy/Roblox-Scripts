@@ -14,7 +14,7 @@
 
 -- Do not touch the code below this line
 local Players = game:GetService("Players"); local LocalPlayer = Players.LocalPlayer; local ReplicatedStorage = game:GetService("ReplicatedStorage"); local RunService = game:GetService("RunService");
-rconsolename("ERLC AutoSolver | TheSynapseGuy | V3rmillion")
+rconsolename("ERLC AutoSolver | Noxy#6969 | Discord")
 local ColorIndex = {BLACK = 30,RED = 31,GREEN = 32,YELLOW = 33,BLUE = 34,MAGENTA = 35,CYAN = 36,LIGHT_GRAY = 37,DARK_GRAY = 90,LIGHT_RED = 91,LIGHT_GREEN = 92,LIGHT_YELLOW = 93,LIGHT_BLUE = 94,LIGHT_MAGENTA = 95, LIGHT_CYAN = 96, WHITE = 97, B = 1, UNDERLINE = 4, N_UNDERLINE = 24, NEGATIVE = 7, POSITIVE = 27, DEFAULT = 0}
 local function rcolorprint( message ) local SeperatedContents = string.split(message, "@@") for i, v in pairs(SeperatedContents) do if i % 2 == 0 then rconsoleprint("\27["..ColorIndex[string.upper(v)].."m") else rconsoleprint(v) end end end
 local logging = {}
